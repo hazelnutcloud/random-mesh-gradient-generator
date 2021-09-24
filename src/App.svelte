@@ -30,7 +30,7 @@
 	}
 
 	function generateRadialGradient(x, y, color) {
-		const result = `radial-gradient(at ${x}% ${y}%, rgb(${color[0]}, ${color[1]}, ${color[2]}) 0, transparent 60%)`;
+		const result = `radial-gradient(at ${x}% ${y}%, rgb(${color[0]}, ${color[1]}, ${color[2]}) 0, transparent 50%)`;
 		return result;
 	}
 
